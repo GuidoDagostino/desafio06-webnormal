@@ -1,0 +1,145 @@
+body {
+  background-color: #1f2023;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+  border-top: 20px #4d6d63 outset;
+  border-bottom: 20px #4d6d63 inset;
+  border-left: 20px #1f2023 solid;
+  border-right: 20px #1f2023 solid;
+  display: block;
+  margin: 20px 520px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.dotted-lines{
+  border-top: dotted #d6e2de;
+  border-width: 20px;
+  height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: -100px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.lgd-titulo {
+  background-color: #4d6d63;
+  text-align: end;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fieldset {
+  /* Todo el contenido del fieldset */
+  background-color: #d6e2de;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fieldset:hover {
+  background-color: #a6c1b9;
+}
+
+.cls-datos {
+  /* los datos que estan dentro del fieldset */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cls-dp-div {
+  /* los datos del label y del input */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cls-dp-div label {
+  /* input y area de ingreso de datos. */
+  display: block;
+}
+
+.cls-dp-div input,
+textarea {
+  /* input y area de ingreso de datos. */
+  width: 500px;
+  margin: 0 10px;
+  text-align: end;
+  color: black;
+}
+
+.cls-dp-div textarea:focus {
+  background-color: #4d6d63;
+  color: white;
+}
+
+.cls-dp-div input:focus {
+  background-color: #4d6d63;
+  color: white;
+}
+
+.cls-dp-div select {
+  text-align: start;
+}
+
+.opc-palermo,
+.opc-rosario {
+  display: block;
+  text-align: start;
+  margin: 30px 5px;
+}
+
+.opc-checkbox {
+  margin: 10px 5px;
+}
+
+.fieldset-footer {
+  border: none;
+  color: white;
+  margin: -40px auto;
+  max-width: 800px;
+  font-family: 'Roboto', sans-serif;
+}
+.cls-footer {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.cls-dp-div-opc {
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  margin: 100px auto;
+  max-width: 800px;
+  width: 200px;
+}
+
+button {
+  text-align: center;
+  font-size: 20px;
+  padding: 25px;
+  margin: -20px 10px;
+  background-color: #2b3d37;
+  color: #a5b78b;
+  white-space: nowrap;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
